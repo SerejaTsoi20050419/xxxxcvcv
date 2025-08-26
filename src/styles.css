@@ -1,0 +1,17 @@
+*{box-sizing:border-box}
+body{font-family:Arial, Helvetica, sans-serif; margin:0; padding:0; background:#f7f7f7}
+.container{max-width:900px; margin:24px auto; padding:16px; background:white; border-radius:8px}
+.header{display:flex; justify-content:space-between; align-items:center; padding:12px 24px; background:#222; color:white}
+.header a{color:inherit; margin-right:12px; text-decoration:none}
+.header .linkish{background:transparent; border:none; color:white; cursor:pointer; margin-left:8px}
+.article{border-bottom:1px solid #eee; padding:12px 0}
+.form-row{margin-bottom:12px}
+.form-row label{display:block; font-weight:600; margin-bottom:6px}
+input[type="text"], textarea{width:100%; padding:8px; border:1px solid #ccc; border-radius:4px}
+button{padding:8px 12px; border-radius:6px; border:none; cursor:pointer}
+.btn-danger{background:#d9534f; color:white}
+.btn-primary{background:#0275d8; color:white}
+.actions{display:flex; gap:8px; margin-top:12px}
+.modal-backdrop{position:fixed; inset:0; background:rgba(0,0,0,0.4); display:flex; align-items:center; justify-content:center}
+.modal{background:white; padding:16px; border-radius:8px; min-width:300px}
+.user{margin-left:12px; opacity:.9}
